@@ -6747,3 +6747,5 @@
 #include "interface\fonts\tiny_unicode.dm"
 #include "interface\fonts\vcr_osd_mono.dm"
 // END_INCLUDE
+
+#include "_abyss_modular\general\code\turf.dm"

@@ -65,3 +65,9 @@ endmap
 
 map runtimestation
 endmap
+
+# Abyss maps
+
+map abyssstation
+    default
+end
