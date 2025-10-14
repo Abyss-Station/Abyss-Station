@@ -37,12 +37,6 @@
 /obj/structure/tram,
 /turf/open/openspace,
 /area/station)
-"cb" = (
-/obj/structure/railing{
-	dir = 4
-	},
-/turf/open/misc/grass/jungle/station,
-/area/station)
 "cu" = (
 /obj/structure/railing{
 	dir = 1
@@ -67,13 +61,12 @@
 /turf/open/openspace,
 /area/station)
 "dw" = (
-/obj/structure/bodycontainer/morgue{
-	dir = 2
+/obj/structure/closet/l3closet/scientist,
+/obj/effect/turf_decal/siding/purple{
+	dir = 10
 	},
-/obj/structure/railing{
-	dir = 8
-	},
-/turf/open/floor/iron/dark/textured_large,
+/obj/effect/turf_decal/tile/purple/full,
+/turf/open/floor/iron/textured_large,
 /area/station)
 "dz" = (
 /obj/effect/turf_decal/tile/yellow{
@@ -246,16 +239,14 @@
 /turf/open/indestructible/tram/plate,
 /area/station)
 "mY" = (
-/obj/machinery/dna_infuser,
 /obj/effect/turf_decal/siding/green{
 	dir = 6
 	},
+/obj/machinery/disposal/bin,
 /turf/open/floor/iron/dark/textured_large,
 /area/station)
 "ne" = (
-/obj/structure/bodycontainer/morgue{
-	dir = 2
-	},
+/obj/machinery/computer/dna_console,
 /turf/open/floor/iron/dark/textured_large,
 /area/station)
 "ni" = (
@@ -310,10 +301,8 @@
 /turf/open/floor/iron/corner,
 /area/station)
 "ri" = (
-/obj/structure/railing{
-	dir = 6
-	},
-/turf/open/misc/grass/jungle/station,
+/obj/structure/bodycontainer/morgue,
+/turf/open/floor/iron/dark/smooth_large,
 /area/station)
 "rz" = (
 /obj/machinery/button/transport/tram/directional/south{
@@ -427,12 +416,6 @@
 /obj/structure/thermoplastic/light,
 /turf/open/openspace,
 /area/station)
-"wd" = (
-/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
-	dir = 1
-	},
-/turf/open/misc/grass/jungle/station,
-/area/station)
 "wD" = (
 /turf/open/floor/iron/white/smooth_large,
 /area/station)
@@ -472,8 +455,6 @@
 /turf/open/floor/iron/large,
 /area/station)
 "yy" = (
-/obj/machinery/disposal/bin,
-/obj/effect/turf_decal/box,
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 9
 	},
@@ -568,7 +549,6 @@
 	},
 /area/station)
 "CF" = (
-/obj/structure/sink/directional/south,
 /obj/machinery/shower/directional/west,
 /obj/effect/turf_decal/siding{
 	dir = 8
@@ -577,17 +557,13 @@
 /area/station)
 "CU" = (
 /obj/structure/table/glass,
-/obj/effect/turf_decal/siding/green{
-	dir = 1
-	},
 /turf/open/floor/iron/dark/textured_large,
 /area/station)
 "Df" = (
-/obj/structure/closet/l3closet/scientist,
-/obj/effect/turf_decal/tile/purple/full,
-/obj/effect/turf_decal/siding/purple{
-	dir = 10
+/obj/effect/turf_decal/siding{
+	dir = 8
 	},
+/obj/structure/sink/directional/west,
 /turf/open/floor/iron/textured_large,
 /area/station)
 "Dj" = (
@@ -648,8 +624,7 @@
 /turf/open/openspace,
 /area/station)
 "FN" = (
-/obj/structure/railing,
-/turf/open/misc/grass/jungle/station,
+/turf/open/floor/plating,
 /area/station)
 "Gp" = (
 /obj/item/radio/intercom/directional/north,
@@ -659,6 +634,7 @@
 /area/station)
 "GB" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/structure/chair/office/light,
 /turf/open/floor/iron/dark/smooth_large,
 /area/station)
 "GF" = (
@@ -740,11 +716,9 @@
 /turf/open/floor/iron/half,
 /area/station)
 "Jq" = (
-/obj/machinery/computer/dna_console{
-	dir = 8
-	},
+/obj/machinery/dna_infuser,
 /obj/effect/turf_decal/siding/green{
-	dir = 8
+	dir = 1
 	},
 /turf/open/floor/iron/dark/textured_large,
 /area/station)
@@ -767,10 +741,7 @@
 /turf/open/openspace,
 /area/station)
 "Ll" = (
-/obj/structure/table/glass,
-/obj/effect/turf_decal/siding/green/corner{
-	dir = 1
-	},
+/obj/machinery/dna_scannernew,
 /turf/open/floor/iron/dark/textured_large,
 /area/station)
 "Ly" = (
@@ -857,9 +828,6 @@
 /area/station)
 "OQ" = (
 /turf/open/misc/grass/jungle/abyss_modular/planet,
-/area/station)
-"Pl" = (
-/turf/open/floor/engine/hull/reinforced/air,
 /area/station)
 "Pq" = (
 /turf/open/floor/iron/smooth_large,
@@ -1097,13 +1065,6 @@
 	},
 /obj/structure/lattice,
 /turf/open/openspace,
-/area/station)
-"ZU" = (
-/obj/machinery/dna_scannernew,
-/obj/effect/turf_decal/siding/green{
-	dir = 8
-	},
-/turf/open/floor/iron/dark/textured_large,
 /area/station)
 
 (1,1,1) = {"
@@ -232524,7 +232485,7 @@ EY
 Oq
 mY
 aX
-Oq
+Jq
 Oq
 Dj
 Dj
@@ -233549,10 +233510,10 @@ Oq
 Oq
 CF
 Df
-Oq
-ZU
-Jq
-Ll
+dw
+Ly
+Ly
+Ly
 Oq
 Dj
 Dj
@@ -233807,9 +233768,9 @@ Oq
 Oq
 Oq
 Oq
-Oq
-Oq
-Oq
+Ly
+Ly
+Ly
 Oq
 Dj
 Dj
@@ -234063,11 +234024,11 @@ YH
 Oq
 Dj
 Dj
-Dj
-Dj
-Dj
-Dj
-Dj
+Oq
+Ly
+Ly
+Ly
+Oq
 Dj
 Dj
 Dj
@@ -234320,11 +234281,11 @@ wD
 Oq
 Dj
 Dj
-Dj
-Dj
-Dj
-Dj
-Dj
+Oq
+Oq
+Oq
+Oq
+Oq
 Dj
 Dj
 Dj
@@ -235345,7 +235306,7 @@ Dj
 Dj
 Dj
 Dj
-Oq
+Dj
 Dj
 Dj
 Dj
@@ -297027,8 +296988,8 @@ Oq
 Oq
 Oq
 Oq
-wD
-wD
+Oq
+Oq
 Oq
 Dj
 Ro
@@ -297284,8 +297245,8 @@ Dj
 Dj
 Dj
 Oq
-Oq
-Oq
+ri
+ri
 Oq
 ez
 ez
@@ -297547,7 +297508,7 @@ Ut
 Ut
 Ut
 Ut
-ez
+FN
 Dj
 Dj
 Dj
@@ -297804,7 +297765,7 @@ Jx
 oG
 Qb
 Ut
-ez
+FN
 Dj
 Dj
 Dj
@@ -298058,11 +298019,11 @@ Oq
 Dj
 Dj
 Oq
-dw
+CU
 LD
 Ut
-ez
-Pl
+FN
+Dj
 Dj
 Dj
 Dj
@@ -298318,9 +298279,9 @@ Oq
 ne
 LD
 Ut
-ez
-Pl
-Pl
+FN
+Dj
+Dj
 Dj
 Dj
 Dj
@@ -298572,12 +298533,12 @@ Oq
 Oq
 Oq
 Oq
-ez
-ia
-ez
-Oq
-Pl
-Pl
+Ll
+LD
+Ut
+FN
+Dj
+Dj
 Dj
 Dj
 Dj
@@ -298829,12 +298790,12 @@ wD
 wD
 wD
 Oq
-wd
-wd
-Ly
+Oq
+ia
+Ut
 FN
-Pl
-Pl
+Dj
+Dj
 Dj
 Dj
 Dj
@@ -299086,12 +299047,12 @@ wD
 wD
 wD
 Oq
-Ly
+Ll
 Ly
 Ly
 FN
-Pl
-Pl
+Dj
+Dj
 Dj
 Dj
 Dj
@@ -299343,12 +299304,12 @@ Oq
 wD
 wD
 Oq
-Ly
+ne
 Ly
 Ly
 FN
-Pl
-Pl
+Dj
+Dj
 Dj
 Dj
 Dj
@@ -299600,11 +299561,11 @@ Oq
 wD
 wD
 Oq
-Ly
+CU
 Ly
 Ly
 FN
-Pl
+Dj
 Dj
 Dj
 Dj
@@ -299857,10 +299818,10 @@ Oq
 Oq
 Oq
 Oq
-cb
-cb
-cb
-ri
+Oq
+Oq
+Oq
+Oq
 Dj
 Dj
 Dj
