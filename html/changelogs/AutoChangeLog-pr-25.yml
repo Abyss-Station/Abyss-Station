@@ -1,0 +1,4 @@
+author: "twilightwanderer"
+delete-after: True
+changes:
+  - bugfix: "Atlas gravitronic spinal implants now use their intended sprite"
