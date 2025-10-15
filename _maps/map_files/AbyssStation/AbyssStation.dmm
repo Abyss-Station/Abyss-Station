@@ -9,8 +9,11 @@
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 1
 	},
-/turf/open/floor/iron/dark/smooth_large,
-/area/station)
+/obj/structure/disposalpipe/segment{
+	dir = 5
+	},
+/turf/open/floor/iron/dark,
+/area/station/science/genetics)
 "aZ" = (
 /turf/closed/wall,
 /area/station)
@@ -46,6 +49,10 @@
 	},
 /turf/open/floor/iron/half,
 /area/station)
+"cF" = (
+/obj/structure/training_machine,
+/turf/open/floor/engine,
+/area/station)
 "cT" = (
 /obj/effect/turf_decal/tile/purple{
 	dir = 1
@@ -60,14 +67,23 @@
 /obj/structure/thermoplastic/light,
 /turf/open/openspace,
 /area/station)
-"dw" = (
-/obj/structure/closet/l3closet/scientist,
-/obj/effect/turf_decal/siding/purple{
-	dir = 10
+"dl" = (
+/obj/structure/table/glass,
+/obj/effect/turf_decal/siding/green{
+	dir = 1
 	},
-/obj/effect/turf_decal/tile/purple/full,
-/turf/open/floor/iron/textured_large,
-/area/station)
+/obj/item/clothing/gloves/latex,
+/turf/open/floor/iron/dark/smooth_large,
+/area/station/science/genetics)
+"dw" = (
+/obj/machinery/computer/dna_console{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/green{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/station/science/genetics)
 "dz" = (
 /obj/effect/turf_decal/tile/yellow{
 	dir = 4
@@ -96,11 +112,18 @@
 	},
 /area/station)
 "ec" = (
-/obj/effect/turf_decal/siding/thinplating_new/dark{
-	dir = 6
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
+	dir = 4
 	},
-/turf/open/floor/iron/dark/smooth_large,
-/area/station)
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 5
+	},
+/turf/open/floor/iron/dark,
+/area/station/science/genetics)
 "ez" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -118,6 +141,16 @@
 /obj/effect/turf_decal/tile/blue/full,
 /turf/open/floor/iron/dark/textured_large,
 /area/station)
+"fA" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/station/science/genetics)
+"fK" = (
+/obj/structure/window/reinforced/spawner/directional/south,
+/turf/open/floor/iron/white/smooth_large,
+/area/station)
 "gc" = (
 /obj/structure/stairs/east,
 /turf/open/floor/iron,
@@ -127,6 +160,7 @@
 	name = "emergency shower"
 	},
 /obj/effect/turf_decal/siding/inner_corner,
+/obj/structure/fluff/shower_drain,
 /turf/open/floor/iron/textured_large,
 /area/station)
 "gE" = (
@@ -151,11 +185,8 @@
 /turf/open/openspace,
 /area/station)
 "ia" = (
-/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
-	dir = 1
-	},
-/turf/open/floor/iron/dark/smooth_large,
-/area/station)
+/turf/closed/wall/r_wall,
+/area/station/science/genetics)
 "ic" = (
 /obj/structure/fluff/tram_rail/electric,
 /obj/structure/transport/linear/tram,
@@ -171,8 +202,43 @@
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 8
 	},
-/turf/open/floor/iron/dark/smooth_large,
+/obj/machinery/power/apc/auto_name/directional/west,
+/obj/structure/disposalpipe/segment,
+/obj/structure/cable,
+/turf/open/floor/iron/dark,
+/area/station/science/genetics)
+"iC" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/turf/open/floor/iron/dark,
+/area/station/science/genetics)
+"iF" = (
+/obj/machinery/door/poddoor/shutters/preopen{
+	dir = 1;
+	id = "rdgene2";
+	name = "Secondary Genetics Lab Shutters"
+	},
+/obj/structure/disposalpipe/segment,
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/station/science/genetics)
+"iX" = (
+/turf/open/floor/iron/white,
 /area/station)
+"jc" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/iron/dark,
+/area/station/science/genetics)
 "jp" = (
 /obj/effect/turf_decal/siding/dark_red/corner{
 	dir = 1
@@ -186,8 +252,8 @@
 /obj/effect/turf_decal/siding/thinplating_new/dark/end{
 	dir = 8
 	},
-/turf/open/floor/iron/dark/smooth_large,
-/area/station)
+/turf/open/floor/iron/dark,
+/area/station/science/genetics)
 "jF" = (
 /obj/structure/fluff/tram_rail/electric{
 	dir = 1
@@ -202,8 +268,25 @@
 "jS" = (
 /obj/structure/table/glass,
 /obj/effect/turf_decal/siding/green,
+/obj/item/infuser_book{
+	pixel_y = -2;
+	pixel_x = 9
+	},
+/obj/item/storage/box/monkeycubes{
+	pixel_x = -5;
+	pixel_y = 4
+	},
+/obj/item/storage/box/monkeycubes{
+	pixel_x = -5;
+	pixel_y = 11
+	},
+/obj/item/reagent_containers/spray/cleaner{
+	pixel_x = 11;
+	pixel_y = 7
+	},
+/obj/item/radio/intercom/directional/north,
 /turf/open/floor/iron/dark/textured_large,
-/area/station)
+/area/station/science/genetics)
 "kf" = (
 /obj/effect/turf_decal/tile/purple/half{
 	dir = 8
@@ -211,6 +294,12 @@
 /turf/open/floor/iron/half{
 	dir = 1
 	},
+/area/station)
+"km" = (
+/obj/effect/turf_decal/siding/thinplating/light{
+	dir = 5
+	},
+/turf/open/floor/iron/white,
 /area/station)
 "kE" = (
 /obj/effect/turf_decal/tile/purple/half,
@@ -243,17 +332,36 @@
 	dir = 6
 	},
 /obj/machinery/disposal/bin,
+/obj/structure/disposalpipe/trunk,
+/obj/effect/turf_decal/bot_red,
+/obj/machinery/requests_console/directional/north{
+	department = "Genetics";
+	name = "Genetics Requests Console"
+	},
+/obj/effect/mapping_helpers/requests_console/supplies,
 /turf/open/floor/iron/dark/textured_large,
-/area/station)
+/area/station/science/genetics)
 "ne" = (
-/obj/machinery/computer/dna_console,
-/turf/open/floor/iron/dark/textured_large,
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 5
+	},
+/obj/machinery/newscaster/directional/north,
+/turf/open/floor/iron/dark,
+/area/station/science/genetics)
+"nh" = (
+/obj/machinery/door/window/right/directional/south{
+	name = "Research Test Chamber";
+	req_access = list("science")
+	},
+/turf/open/floor/iron/white,
 /area/station)
 "ni" = (
-/obj/structure/railing,
-/obj/structure/lattice,
-/turf/open/openspace,
-/area/station)
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/station/science/genetics)
 "nw" = (
 /obj/machinery/computer/dna_console{
 	dir = 1
@@ -262,12 +370,18 @@
 	dir = 1
 	},
 /turf/open/floor/iron/dark/textured_large,
-/area/station)
+/area/station/science/genetics)
+"ny" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner,
+/turf/open/floor/iron/dark,
+/area/station/science/genetics)
 "nJ" = (
-/obj/structure/lattice,
-/obj/structure/railing,
-/turf/open/openspace,
-/area/station)
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 10
+	},
+/obj/item/radio/intercom/directional/west,
+/turf/open/floor/iron/dark,
+/area/station/science/genetics)
 "ot" = (
 /obj/effect/turf_decal/tile/purple/half{
 	dir = 1
@@ -278,10 +392,15 @@
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 4
 	},
-/turf/open/floor/iron/dark/smooth_large,
-/area/station)
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/station/science/genetics)
 "oP" = (
 /obj/effect/turf_decal/tile/purple/full,
+/obj/structure/table/reinforced,
 /turf/open/floor/iron/large,
 /area/station)
 "oS" = (
@@ -290,20 +409,68 @@
 	},
 /turf/open/openspace,
 /area/station)
+"oX" = (
+/turf/open/floor/iron/stairs/left{
+	dir = 4;
+	color = "#3d3e42"
+	},
+/area/station/science/genetics)
+"pv" = (
+/turf/open/floor/iron/stairs/right{
+	dir = 1
+	},
+/area/station)
+"pK" = (
+/obj/structure/rack,
+/obj/item/clothing/under/rank/medical/scrubs/blue{
+	pixel_x = -4;
+	pixel_y = 5
+	},
+/obj/item/clothing/under/rank/medical/scrubs/purple{
+	pixel_x = 6;
+	pixel_y = 5
+	},
+/obj/item/clothing/under/rank/medical/scrubs/green{
+	pixel_x = 1;
+	pixel_y = 3
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/station/science/genetics)
+"qj" = (
+/obj/machinery/module_duplicator,
+/turf/open/floor/iron/white/textured_large,
+/area/station)
 "qy" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 5
 	},
-/turf/open/floor/iron/dark/smooth_large,
-/area/station)
+/obj/machinery/atmospherics/pipe/smart/manifold/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/turf/open/floor/iron/dark,
+/area/station/science/genetics)
+"qz" = (
+/obj/structure/table/glass,
+/obj/effect/turf_decal/siding/green{
+	dir = 4
+	},
+/obj/item/folder,
+/obj/item/pen,
+/turf/open/floor/iron/dark/textured_large,
+/area/station/science/genetics)
 "qM" = (
 /obj/effect/turf_decal/tile/yellow,
 /turf/open/floor/iron/corner,
 /area/station)
 "ri" = (
 /obj/structure/bodycontainer/morgue,
-/turf/open/floor/iron/dark/smooth_large,
-/area/station)
+/obj/effect/turf_decal/siding/green{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/station/science/genetics)
 "rz" = (
 /obj/machinery/button/transport/tram/directional/south{
 	id = 2
@@ -318,6 +485,7 @@
 	dir = 9
 	},
 /obj/effect/turf_decal/tile/purple/full,
+/obj/machinery/light/small/directional/east,
 /turf/open/floor/iron/dark/textured_large,
 /area/station)
 "rV" = (
@@ -337,15 +505,27 @@
 	name = "Genetics Lab Shutters"
 	},
 /obj/effect/turf_decal/tile/dark_green/full,
-/turf/open/floor/iron/large,
-/area/station)
-"sy" = (
-/obj/structure/railing{
-	dir = 1
+/obj/machinery/door/window/left/directional/east{
+	name = "Genetics Desk";
+	req_access = list("genetics")
 	},
-/obj/structure/lattice,
-/turf/open/openspace,
-/area/station)
+/turf/open/floor/iron/large,
+/area/station/science/genetics)
+"sy" = (
+/obj/structure/table/glass,
+/obj/item/soap,
+/obj/item/food/grown/banana/bunch{
+	pixel_y = 7
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/station/science/genetics)
+"tj" = (
+/obj/structure/window/reinforced/spawner/directional/west,
+/obj/structure/flora/grass/jungle/a/style_random,
+/obj/structure/flora/bush/flowers_yw/style_random,
+/mob/living/carbon/human/species/monkey,
+/turf/open/misc/grass/jungle/station,
+/area/station/science/genetics)
 "tu" = (
 /obj/structure/fluff/tram_rail/electric{
 	dir = 1
@@ -367,12 +547,11 @@
 	},
 /area/station)
 "tU" = (
-/obj/structure/railing{
-	dir = 4
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 9
 	},
-/obj/structure/lattice,
-/turf/open/openspace,
-/area/station)
+/turf/open/floor/iron/dark,
+/area/station/science/genetics)
 "uz" = (
 /obj/effect/turf_decal/tile/purple{
 	dir = 8
@@ -380,6 +559,12 @@
 /turf/open/floor/iron/corner{
 	dir = 8
 	},
+/area/station)
+"uI" = (
+/obj/effect/turf_decal/siding/thinplating/light{
+	dir = 1
+	},
+/turf/open/floor/iron/white,
 /area/station)
 "vg" = (
 /obj/structure/railing{
@@ -398,11 +583,13 @@
 /turf/open/floor/iron/half,
 /area/station)
 "vq" = (
-/obj/structure/lattice,
-/obj/structure/railing{
+/obj/effect/turf_decal/tile/purple/half{
+	dir = 4
+	},
+/obj/machinery/light/small/directional/east,
+/turf/open/floor/iron/half{
 	dir = 1
 	},
-/turf/open/openspace,
 /area/station)
 "vw" = (
 /obj/structure/transport/linear/tram/corner/southeast,
@@ -422,6 +609,19 @@
 "wY" = (
 /turf/open/floor/iron/stairs/right{
 	dir = 4
+	},
+/area/station)
+"xg" = (
+/obj/machinery/dna_scannernew,
+/obj/machinery/light/directional/south,
+/obj/effect/turf_decal/siding/green{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/station/science/genetics)
+"xk" = (
+/turf/open/floor/iron/stairs/left{
+	dir = 1
 	},
 /area/station)
 "xu" = (
@@ -448,6 +648,13 @@
 /obj/effect/mapping_helpers/airlock/access/all/science/general,
 /turf/open/floor/iron/dark/textured_large,
 /area/station)
+"ya" = (
+/obj/structure/window/reinforced/spawner/directional/west,
+/obj/structure/flora/grass/jungle/a/style_random,
+/obj/structure/flora/bush/flowers_br/style_random,
+/mob/living/carbon/human/species/monkey,
+/turf/open/misc/grass/jungle/station,
+/area/station/science/genetics)
 "yh" = (
 /obj/effect/turf_decal/siding/purple{
 	dir = 1
@@ -458,8 +665,12 @@
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 9
 	},
-/turf/open/floor/iron/dark/smooth_large,
-/area/station)
+/obj/effect/turf_decal/box,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/station/science/genetics)
 "yM" = (
 /obj/structure/railing,
 /obj/structure/chair/sofa/bench/tram/left{
@@ -497,7 +708,7 @@
 	dir = 1
 	},
 /turf/open/floor/iron/dark/textured_large,
-/area/station)
+/area/station/science/genetics)
 "AO" = (
 /obj/machinery/transport/power_rectifier,
 /turf/open/floor/iron/large,
@@ -527,8 +738,11 @@
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner{
 	dir = 1
 	},
-/turf/open/floor/iron/dark/smooth_large,
-/area/station)
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/station/science/genetics)
 "BX" = (
 /turf/open/floor/tram/plate/energized{
 	inbound = 2;
@@ -553,19 +767,36 @@
 /obj/effect/turf_decal/siding{
 	dir = 8
 	},
+/obj/structure/sink/directional/south,
+/obj/structure/fluff/shower_drain,
 /turf/open/floor/iron/textured_large,
-/area/station)
-"CU" = (
-/obj/structure/table/glass,
-/turf/open/floor/iron/dark/textured_large,
-/area/station)
-"Df" = (
-/obj/effect/turf_decal/siding{
+/area/station/science/genetics)
+"CO" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 8
 	},
-/obj/structure/sink/directional/west,
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/station/science/genetics)
+"CU" = (
+/obj/structure/table/glass,
+/obj/item/dnainjector/elvismut,
+/obj/item/reagent_containers/cup/glass/coffee{
+	pixel_x = -7;
+	pixel_y = 12
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/station/science/genetics)
+"Df" = (
+/obj/structure/closet/l3closet/scientist,
+/obj/effect/turf_decal/siding/purple{
+	dir = 10
+	},
+/obj/effect/turf_decal/tile/purple/full,
 /turf/open/floor/iron/textured_large,
-/area/station)
+/area/station/science/genetics)
 "Dj" = (
 /turf/open/openspace,
 /area/station)
@@ -590,12 +821,11 @@
 /turf/open/floor/iron/half,
 /area/station)
 "DU" = (
-/obj/structure/lattice,
-/obj/structure/railing{
-	dir = 8
+/turf/open/floor/iron/stairs/right{
+	dir = 4;
+	color = "#3d3e42"
 	},
-/turf/open/openspace,
-/area/station)
+/area/station/science/genetics)
 "DV" = (
 /obj/structure/transport/linear/tram/corner/northwest,
 /obj/structure/tram/spoiler{
@@ -616,27 +846,45 @@
 /turf/open/floor/iron/large,
 /area/station)
 "EY" = (
-/obj/structure/stairs/west,
+/obj/structure/stairs/west{
+	color = "#3d3e42"
+	},
 /turf/open/floor/iron/dark/smooth_large,
-/area/station)
+/area/station/science/genetics)
+"Fc" = (
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/station/science/genetics)
 "Fq" = (
 /obj/structure/railing,
 /turf/open/openspace,
 /area/station)
 "FN" = (
+/obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
-/area/station)
+/area/station/science/genetics)
 "Gp" = (
-/obj/item/radio/intercom/directional/north,
 /obj/machinery/modular_computer/preset/civilian,
 /obj/effect/turf_decal/siding/green,
 /turf/open/floor/iron/dark/textured_large,
-/area/station)
+/area/station/science/genetics)
 "GB" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark,
 /obj/structure/chair/office/light,
-/turf/open/floor/iron/dark/smooth_large,
-/area/station)
+/obj/structure/disposalpipe/segment{
+	dir = 9
+	},
+/turf/open/floor/iron/dark,
+/area/station/science/genetics)
 "GF" = (
 /turf/open/floor/iron/stairs/left{
 	dir = 8
@@ -656,11 +904,15 @@
 /turf/open/indestructible/tram/plate,
 /area/station)
 "GL" = (
-/obj/structure/fluff/tram_rail/floor{
+/obj/structure/lattice,
+/obj/structure/fluff/tram_rail/electric/anchor{
 	dir = 1
 	},
 /turf/open/openspace,
 /area/station)
+"GM" = (
+/turf/open/openspace,
+/area/station/science/genetics)
 "Hf" = (
 /obj/structure/fluff/tram_rail/electric/anchor{
 	dir = 1
@@ -673,7 +925,8 @@
 /turf/open/openspace,
 /area/station)
 "Hi" = (
-/obj/structure/fluff/tram_rail/floor,
+/obj/structure/lattice,
+/obj/structure/fluff/tram_rail/electric/anchor,
 /turf/open/openspace,
 /area/station)
 "Ia" = (
@@ -699,6 +952,12 @@
 /obj/effect/turf_decal/tile/purple,
 /turf/open/floor/iron/corner,
 /area/station)
+"Jc" = (
+/obj/structure/flora/grass/jungle/a/style_random,
+/obj/structure/flora/bush/flowers_pp/style_random,
+/mob/living/carbon/human/species/monkey,
+/turf/open/misc/grass/jungle/station,
+/area/station/science/genetics)
 "Jk" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/door/poddoor/shutters/preopen{
@@ -707,7 +966,7 @@
 	name = "Genetics Lab Shutters"
 	},
 /turf/open/floor/plating,
-/area/station)
+/area/station/science/genetics)
 "Jp" = (
 /obj/structure/railing{
 	dir = 1
@@ -716,49 +975,111 @@
 /turf/open/floor/iron/half,
 /area/station)
 "Jq" = (
-/obj/machinery/dna_infuser,
 /obj/effect/turf_decal/siding/green{
 	dir = 1
 	},
+/obj/machinery/vending/wardrobe/gene_wardrobe,
 /turf/open/floor/iron/dark/textured_large,
-/area/station)
+/area/station/science/genetics)
 "Jx" = (
-/obj/effect/turf_decal/siding/thinplating_new/dark/corner,
-/turf/open/floor/iron/dark/smooth_large,
+/obj/machinery/light/small/directional/east,
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/station/science/genetics)
+"Jy" = (
+/obj/structure/stairs/south,
+/turf/open/floor/iron/white/smooth_large,
 /area/station)
+"JB" = (
+/obj/machinery/dna_infuser,
+/obj/effect/turf_decal/siding/green{
+	dir = 5
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/station/science/genetics)
+"JF" = (
+/obj/structure/table/glass,
+/obj/effect/turf_decal/siding/green/corner{
+	dir = 4
+	},
+/obj/item/storage/pill_bottle/mutadone{
+	pixel_x = 5;
+	pixel_y = 6
+	},
+/obj/item/flesh_shears{
+	pixel_y = -1;
+	pixel_x = -8
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/station/science/genetics)
 "JH" = (
 /obj/machinery/door/airlock/research/glass{
 	name = "Genetics Lab"
 	},
 /obj/effect/mapping_helpers/airlock/access/all/science/genetics,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4,
 /turf/open/floor/iron/white/smooth_large,
-/area/station)
+/area/station/science/genetics)
 "JY" = (
 /turf/open/floor/iron/large,
 /area/station)
+"Kn" = (
+/obj/structure/table/glass,
+/obj/machinery/smartfridge/disks,
+/obj/effect/turf_decal/siding/green/corner{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/station/science/genetics)
 "Kw" = (
 /obj/structure/fluff/tram_rail/electric,
 /turf/open/openspace,
 /area/station)
+"KU" = (
+/obj/machinery/door/poddoor/shutters/preopen{
+	dir = 8;
+	id = "rdgene";
+	name = "Genetics Lab Shutters"
+	},
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/station/science/genetics)
 "Ll" = (
 /obj/machinery/dna_scannernew,
-/turf/open/floor/iron/dark/textured_large,
-/area/station)
-"Ly" = (
-/turf/open/misc/grass/jungle/station,
-/area/station)
-"LD" = (
-/obj/effect/turf_decal/siding/thinplating_new/dark{
-	dir = 1
+/obj/effect/turf_decal/siding/green{
+	dir = 8
 	},
-/turf/open/floor/iron/dark/smooth_large,
-/area/station)
+/turf/open/floor/iron/dark/textured_large,
+/area/station/science/genetics)
+"Ly" = (
+/obj/structure/flora/grass/jungle/a/style_random,
+/obj/structure/flora/bush/flowers_yw/style_random,
+/obj/structure/bed/maint,
+/turf/open/misc/grass/jungle/station,
+/area/station/science/genetics)
+"LD" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/turf/open/floor/iron/dark,
+/area/station/science/genetics)
 "Mb" = (
 /obj/machinery/button/transport/tram/directional/north{
 	id = 2
 	},
 /obj/machinery/transport/destination_sign/indicator/directional/north,
 /turf/open/floor/iron/large,
+/area/station)
+"MG" = (
+/obj/structure/chair/office/light{
+	dir = 4
+	},
+/turf/open/floor/iron/white/textured_large,
 /area/station)
 "MH" = (
 /obj/effect/turf_decal/tile/dark{
@@ -786,7 +1107,12 @@
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner{
 	dir = 8
 	},
-/turf/open/floor/iron/dark/smooth_large,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/iron/dark,
+/area/station/science/genetics)
+"Ng" = (
+/obj/machinery/component_printer,
+/turf/open/floor/iron/white/textured_large,
 /area/station)
 "Ns" = (
 /obj/structure/railing{
@@ -806,6 +1132,10 @@
 	dir = 1
 	},
 /area/station)
+"Ny" = (
+/obj/machinery/bci_implanter,
+/turf/open/floor/iron/white/textured_large,
+/area/station)
 "NC" = (
 /obj/structure/transport/linear/tram,
 /obj/structure/tram/split,
@@ -818,6 +1148,24 @@
 	},
 /turf/open/floor/iron/large,
 /area/station)
+"Oj" = (
+/obj/machinery/door/window/left/directional/west{
+	name = "Monkey Pen";
+	req_access = list("genetics")
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/box,
+/turf/open/floor/iron/dark,
+/area/station/science/genetics)
 "Oo" = (
 /obj/structure/transport/linear/tram,
 /obj/structure/tram,
@@ -826,9 +1174,28 @@
 "Oq" = (
 /turf/closed/wall/r_wall,
 /area/station)
+"Ov" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark/end{
+	dir = 4
+	},
+/obj/effect/turf_decal/box,
+/turf/open/floor/iron/dark,
+/area/station/science/genetics)
 "OQ" = (
 /turf/open/misc/grass/jungle/abyss_modular/planet,
 /area/station)
+"OT" = (
+/obj/structure/chair/office/light{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 6
+	},
+/turf/open/floor/iron/dark,
+/area/station/science/genetics)
 "Pq" = (
 /turf/open/floor/iron/smooth_large,
 /area/station)
@@ -836,17 +1203,22 @@
 /obj/structure/stairs/west,
 /turf/open/floor/iron,
 /area/station)
+"PG" = (
+/obj/effect/turf_decal/tile/purple/half,
+/obj/machinery/light/small/directional/south,
+/turf/open/floor/iron/half,
+/area/station)
 "PU" = (
-/obj/structure/fluff/tram_rail/floor,
-/obj/structure/lattice,
-/turf/open/openspace,
+/obj/structure/table,
+/turf/open/floor/iron/white/textured_large,
 /area/station)
 "Qb" = (
-/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
-	dir = 4
+/obj/structure/chair/office/light,
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 10
 	},
-/turf/open/floor/iron/dark/smooth_large,
-/area/station)
+/turf/open/floor/iron/dark,
+/area/station/science/genetics)
 "Qs" = (
 /turf/open/floor/iron/white/textured_large,
 /area/station)
@@ -855,8 +1227,10 @@
 /obj/effect/turf_decal/siding/green{
 	dir = 1
 	},
+/obj/machinery/light/directional/south,
+/obj/machinery/airalarm/directional/south,
 /turf/open/floor/iron/dark/textured_large,
-/area/station)
+/area/station/science/genetics)
 "Qz" = (
 /obj/structure/fluff/tram_rail/electric,
 /obj/structure/transport/linear/tram,
@@ -881,6 +1255,12 @@
 	dir = 1
 	},
 /turf/open/floor/iron/half,
+/area/station)
+"Rl" = (
+/obj/machinery/modular_computer/preset/civilian{
+	dir = 1
+	},
+/turf/open/floor/iron/white/textured_large,
 /area/station)
 "Ro" = (
 /obj/structure/lattice,
@@ -913,6 +1293,15 @@
 	},
 /turf/open/openspace,
 /area/station)
+"Tg" = (
+/obj/effect/turf_decal/tile/purple/half{
+	dir = 8
+	},
+/obj/machinery/light/small/directional/west,
+/turf/open/floor/iron/half{
+	dir = 1
+	},
+/area/station)
 "Tk" = (
 /obj/machinery/shower/directional/east{
 	name = "emergency shower"
@@ -920,6 +1309,7 @@
 /obj/effect/turf_decal/siding{
 	dir = 4
 	},
+/obj/structure/fluff/shower_drain,
 /turf/open/floor/iron/textured_large,
 /area/station)
 "TJ" = (
@@ -932,15 +1322,40 @@
 /turf/open/openspace,
 /area/station)
 "TP" = (
-/obj/structure/lattice,
 /obj/structure/railing{
 	dir = 4
 	},
 /turf/open/openspace,
 /area/station)
+"Uq" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 4
+	},
+/obj/machinery/light/directional/east,
+/obj/machinery/light_switch/directional/east,
+/obj/machinery/atmospherics/pipe/smart/simple/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/simple/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/machinery/button/door/directional/east{
+	pixel_y = -9;
+	id = "rdgene";
+	name = "Genetics Shutters Control";
+	req_access = list("genetics")
+	},
+/obj/machinery/button/door/directional/east{
+	pixel_y = 9;
+	id = "rdgene2";
+	name = "Secondary Genetics Shutters Control";
+	req_access = list("genetics")
+	},
+/turf/open/floor/iron/dark,
+/area/station/science/genetics)
 "Ut" = (
-/turf/open/floor/iron/dark/smooth_large,
-/area/station)
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/station/science/genetics)
 "UI" = (
 /obj/structure/fluff/tram_rail/electric{
 	dir = 1
@@ -967,7 +1382,6 @@
 /obj/structure/railing{
 	dir = 8
 	},
-/obj/structure/lattice,
 /turf/open/openspace,
 /area/station)
 "Wh" = (
@@ -1010,8 +1424,20 @@
 	dir = 1
 	},
 /obj/structure/rack,
+/obj/item/storage/box/disks{
+	pixel_x = 5;
+	pixel_y = 6
+	},
+/obj/item/storage/box/gloves{
+	pixel_x = 1;
+	pixel_y = 3
+	},
+/obj/item/storage/box/bodybags{
+	pixel_x = -3;
+	pixel_y = -1
+	},
 /turf/open/floor/iron/dark/textured_large,
-/area/station)
+/area/station/science/genetics)
 "Xj" = (
 /obj/structure/railing{
 	dir = 8
@@ -1028,6 +1454,16 @@
 /turf/open/floor/iron/corner{
 	dir = 1
 	},
+/area/station)
+"Xm" = (
+/obj/effect/turf_decal/siding/thinplating/light{
+	dir = 4
+	},
+/turf/open/floor/iron/white,
+/area/station)
+"XQ" = (
+/obj/item/target/syndicate,
+/turf/open/floor/engine,
 /area/station)
 "XU" = (
 /turf/open/misc/grass/abyss_modular/planet,
@@ -1054,18 +1490,31 @@
 /obj/structure/thermoplastic/light,
 /turf/open/openspace,
 /area/station)
+"YD" = (
+/obj/effect/turf_decal/siding/thinplating/light/corner{
+	dir = 4
+	},
+/turf/open/floor/iron/white,
+/area/station)
 "YH" = (
 /turf/open/floor/iron/stairs/left{
 	dir = 4
 	},
 /area/station)
 "Zr" = (
-/obj/structure/fluff/tram_rail/floor{
+/turf/open/floor/engine,
+/area/station)
+"Zu" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 1
 	},
-/obj/structure/lattice,
-/turf/open/openspace,
-/area/station)
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 4
+	},
+/obj/effect/turf_decal/box,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/iron/dark,
+/area/station/science/genetics)
 
 (1,1,1) = {"
 OQ
@@ -228888,7 +229337,7 @@ ez
 AR
 JY
 kE
-vq
+oS
 Dj
 Dj
 Dj
@@ -229145,7 +229594,7 @@ lO
 Oh
 JY
 kE
-vq
+oS
 Dj
 Dj
 Dj
@@ -229156,11 +229605,11 @@ aZ
 TP
 TP
 aZ
-Ro
-Ro
-Ro
-Ro
-Ro
+Dj
+Dj
+Dj
+Dj
+Dj
 aZ
 TP
 TP
@@ -229402,7 +229851,7 @@ ez
 jp
 JY
 kE
-vq
+oS
 Dj
 Dj
 Dj
@@ -229412,13 +229861,13 @@ Pw
 aZ
 ot
 Bh
-vq
+oS
 Dj
 Dj
 Dj
 Dj
 Dj
-nJ
+Fq
 Rh
 hm
 aZ
@@ -229658,7 +230107,7 @@ Oq
 Oq
 JY
 JY
-kE
+PG
 aZ
 TP
 TP
@@ -229669,13 +230118,13 @@ YH
 aZ
 ot
 Bh
-vq
+oS
 Dj
 Dj
 Dj
 Dj
 Dj
-nJ
+Fq
 Rh
 hm
 aZ
@@ -229916,14 +230365,14 @@ Oq
 By
 JY
 uz
+Tg
 kf
 kf
 kf
-kf
-kf
+Tg
 cT
 uz
-kf
+Tg
 cT
 dL
 Xj
@@ -230434,10 +230883,10 @@ MW
 MW
 MW
 MW
-MW
+vq
 Ia
 IY
-MW
+vq
 Ia
 Iv
 Nt
@@ -230686,24 +231135,24 @@ Oq
 Oq
 JY
 JY
-kE
+PG
 aZ
-DU
-DU
-DU
+VY
+VY
+VY
 aZ
 GF
 al
 aZ
 ot
 Bh
-vq
+oS
 Dj
 Dj
 Dj
 Dj
 Dj
-nJ
+Fq
 Rh
 hm
 aZ
@@ -230944,7 +231393,7 @@ ez
 WU
 JY
 kE
-vq
+oS
 Dj
 Dj
 Dj
@@ -230954,13 +231403,13 @@ gc
 aZ
 ot
 Bh
-vq
+oS
 Dj
 Dj
 Dj
 Dj
 Dj
-nJ
+Fq
 Rh
 hm
 aZ
@@ -231201,7 +231650,7 @@ oP
 yh
 JY
 kE
-vq
+oS
 Dj
 Dj
 Dj
@@ -231209,17 +231658,17 @@ aZ
 aZ
 aZ
 aZ
-DU
-DU
+VY
+VY
 aZ
-Ro
-Ro
-Ro
-Ro
-Ro
+Dj
+Dj
+Dj
+Dj
+Dj
 aZ
-DU
-DU
+VY
+VY
 aZ
 aZ
 aZ
@@ -231458,7 +231907,7 @@ ez
 hd
 Eo
 IB
-vq
+oS
 Dj
 Dj
 Dj
@@ -231711,11 +232160,11 @@ wD
 wD
 wD
 wD
-Oq
+ia
 Jk
 rV
-Jk
-Oq
+KU
+ia
 Dj
 Dj
 Dj
@@ -231968,11 +232417,11 @@ wD
 wD
 wD
 wD
-Oq
+ia
 Gp
 jA
 Aw
-Oq
+FN
 Dj
 Dj
 Dj
@@ -232222,14 +232671,14 @@ wD
 Oq
 wD
 wD
-Oq
-Oq
-Oq
-Oq
+ia
+ia
+ia
+ia
 jS
-aX
+ni
 WZ
-Oq
+FN
 Dj
 Dj
 Dj
@@ -232479,14 +232928,14 @@ wD
 Oq
 Oq
 Oq
-Oq
+ia
 EY
 EY
-Oq
+ia
 mY
 aX
 Jq
-Oq
+FN
 Dj
 Dj
 Dj
@@ -232736,14 +233185,14 @@ wD
 Oq
 wD
 GI
-Oq
-wY
-YH
-Oq
+ia
+DU
+oX
+ia
 yy
 BI
 Qu
-Oq
+ia
 Dj
 Dj
 Dj
@@ -232993,14 +233442,14 @@ wD
 wD
 wD
 wD
-ez
-LD
+iF
+Zu
 Ne
 ix
-ia
+jc
 GB
 nw
-Oq
+FN
 Dj
 Dj
 Dj
@@ -233252,12 +233701,12 @@ wD
 wD
 JH
 qy
-oG
-oG
+iC
+Uq
 oG
 ec
 CU
-Oq
+FN
 Dj
 Dj
 Dj
@@ -233502,19 +233951,19 @@ Dj
 Dj
 Dj
 Oq
-Oq
-wD
-Oq
-Oq
+ez
+YD
 Oq
 Oq
+Oq
+ia
 CF
 Df
-dw
-Ly
-Ly
-Ly
-Oq
+ia
+sy
+Fc
+pK
+FN
 Dj
 Dj
 Dj
@@ -233759,19 +234208,19 @@ Dj
 Dj
 Dj
 Oq
-wD
-wD
-Oq
-QZ
-QZ
-Oq
-Oq
-Oq
-Oq
-Ly
-Ly
-Ly
-Oq
+Ny
+uI
+iX
+xk
+Jy
+ia
+ia
+ia
+ia
+ya
+Oj
+tj
+ia
 Dj
 Dj
 Dj
@@ -234016,19 +234465,19 @@ Dj
 Dj
 Dj
 Oq
-wD
-wD
-Oq
-wY
-YH
+Ng
+km
+Xm
+pv
+Jy
 Oq
 Dj
 Dj
-Oq
+ia
 Ly
-Ly
-Ly
-Oq
+Ov
+Jc
+ia
 Dj
 Dj
 Dj
@@ -234273,19 +234722,19 @@ Dj
 Dj
 Dj
 Oq
-wD
-wD
-wD
-wD
-wD
+qj
+MG
+Rl
+Oq
+Oq
 Oq
 Dj
 Dj
-Oq
-Oq
-Oq
-Oq
-Oq
+ia
+ia
+ia
+ia
+ia
 Dj
 Dj
 Dj
@@ -234530,12 +234979,12 @@ Dj
 Dj
 Dj
 Oq
-wD
-wD
-wD
-wD
-wD
+PU
+PU
+PU
 Oq
+Dj
+Dj
 Dj
 Dj
 Dj
@@ -234787,12 +235236,12 @@ Dj
 Dj
 Dj
 Oq
-wD
-wD
-wD
-wD
-wD
 Oq
+Oq
+Oq
+Oq
+Dj
+Dj
 Dj
 Dj
 Dj
@@ -235043,13 +235492,13 @@ Dj
 Dj
 Dj
 Dj
-Oq
-Oq
-Oq
-Oq
-Oq
-Oq
-Oq
+Dj
+Dj
+Dj
+Dj
+Dj
+Dj
+Dj
 Dj
 Dj
 Dj
@@ -277732,7 +278181,7 @@ Dj
 Dj
 Dj
 Dj
-Dj
+Dt
 Dj
 Dj
 Dj
@@ -277988,9 +278437,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Dj
 Dt
-GL
+Dj
 Dj
 Dj
 hu
@@ -278245,9 +278694,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Dj
 Dt
-GL
+Dj
 Dj
 Dj
 hu
@@ -278502,9 +278951,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Dj
 Dt
-GL
+Dj
 Dj
 Dj
 hu
@@ -278759,9 +279208,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Dj
 Dt
-GL
+Dj
 Dj
 Dj
 hu
@@ -279014,13 +279463,13 @@ Dj
 Dj
 Dj
 hu
-Dj
-Dj
-Hi
+aZ
+Ro
+Ro
 Dt
-GL
-Dj
-Dj
+Ro
+Ro
+aZ
 hu
 Dj
 Dj
@@ -279271,13 +279720,13 @@ Dj
 Dj
 Dj
 hu
-aZ
-Ro
-PU
+Dj
+Dj
+Dj
 Dt
-Zr
-Ro
-aZ
+Dj
+Dj
+Dj
 hu
 Dj
 Dj
@@ -279530,9 +279979,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Dj
 Dt
-GL
+Dj
 Dj
 Dj
 hu
@@ -279787,9 +280236,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Dj
 Dt
-GL
+Dj
 Dj
 Dj
 hu
@@ -280044,9 +280493,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Dj
 Dt
-GL
+Dj
 Dj
 Dj
 hu
@@ -280301,9 +280750,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Dj
 Dt
-GL
+Dj
 Dj
 Dj
 hu
@@ -280558,9 +281007,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Dj
 Dt
-GL
+Dj
 Dj
 Dj
 hu
@@ -280813,13 +281262,13 @@ Dj
 Dj
 Dj
 hu
-Dj
-Dj
-Hi
+aZ
+Ro
+Ro
 Dt
-GL
-Dj
-Dj
+Ro
+Ro
+aZ
 hu
 Dj
 Dj
@@ -281070,13 +281519,13 @@ Dj
 Dj
 Dj
 hu
-aZ
-Ro
-PU
+Dj
+Dj
+Dj
 Dt
-Zr
-Ro
-aZ
+Dj
+Dj
+Dj
 hu
 Dj
 Dj
@@ -281329,9 +281778,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Dj
 Dt
-GL
+Dj
 Dj
 Dj
 hu
@@ -281586,9 +282035,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Dj
 Dt
-GL
+Dj
 Dj
 Dj
 hu
@@ -281843,9 +282292,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Dj
 Dt
-GL
+Dj
 Dj
 Dj
 hu
@@ -282100,9 +282549,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Dj
 Dt
-GL
+Dj
 Dj
 Dj
 hu
@@ -282357,9 +282806,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Dj
 Dt
-GL
+Dj
 Dj
 Dj
 hu
@@ -282612,13 +283061,13 @@ Dj
 Dj
 Dj
 hu
-Dj
-Dj
-Hi
+aZ
+Ro
+Ro
 Dt
-GL
-Dj
-Dj
+Ro
+Ro
+aZ
 hu
 Dj
 Dj
@@ -282869,13 +283318,13 @@ Dj
 Dj
 Dj
 hu
-aZ
-Ro
-PU
+Dj
+Dj
+Dj
 Dt
-Zr
-Ro
-aZ
+Dj
+Dj
+Dj
 hu
 Dj
 Dj
@@ -283128,9 +283577,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Dj
 Dt
-GL
+Dj
 Dj
 Dj
 hu
@@ -283385,9 +283834,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Dj
 Dt
-GL
+Dj
 Dj
 Dj
 hu
@@ -283642,9 +284091,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Dj
 Dt
-GL
+Dj
 Dj
 Dj
 hu
@@ -283899,9 +284348,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Dj
 Dt
-GL
+Dj
 Dj
 Dj
 hu
@@ -284156,9 +284605,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Dj
 Dt
-GL
+Dj
 Dj
 Dj
 hu
@@ -284411,13 +284860,13 @@ Dj
 Dj
 Dj
 hu
-Dj
-Dj
-Hi
+aZ
+Ro
+Ro
 Dt
-GL
-Dj
-Dj
+Ro
+Ro
+aZ
 hu
 Dj
 Dj
@@ -284668,13 +285117,13 @@ Dj
 Dj
 Dj
 hu
-aZ
-Ro
-PU
+Dj
+Dj
+Dj
 Dt
-Zr
-Ro
-aZ
+Dj
+Dj
+Dj
 hu
 Dj
 Dj
@@ -284927,9 +285376,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Dj
 Dt
-GL
+Dj
 Dj
 Dj
 hu
@@ -285184,9 +285633,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Dj
 Dt
-GL
+Dj
 Dj
 Dj
 hu
@@ -285441,9 +285890,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Dj
 Dt
-GL
+Dj
 Dj
 Dj
 hu
@@ -285698,9 +286147,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Dj
 Dt
-GL
+Dj
 Dj
 Dj
 hu
@@ -285955,9 +286404,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Dj
 Dt
-GL
+Dj
 Dj
 Dj
 hu
@@ -286210,13 +286659,13 @@ Dj
 Dj
 Dj
 hu
-Dj
-Dj
-Hi
+aZ
+Ro
+Ro
 Dt
-GL
-Dj
-Dj
+Ro
+Ro
+aZ
 hu
 Dj
 Dj
@@ -286467,13 +286916,13 @@ Dj
 Dj
 Dj
 hu
-aZ
-Ro
-PU
+Dj
+Dj
+Dj
 Dt
-Zr
-Ro
-aZ
+Dj
+Dj
+Dj
 hu
 Dj
 Dj
@@ -286726,9 +287175,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Dj
 Dt
-GL
+Dj
 Dj
 Dj
 hu
@@ -286983,9 +287432,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Dj
 Dt
-GL
+Dj
 Dj
 Dj
 hu
@@ -287240,9 +287689,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Dj
 Dt
-GL
+Dj
 Dj
 Dj
 hu
@@ -287497,9 +287946,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Dj
 Dt
-GL
+Dj
 Dj
 Dj
 hu
@@ -287754,9 +288203,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Dj
 Dt
-GL
+Dj
 Dj
 Dj
 hu
@@ -288009,13 +288458,13 @@ Dj
 Dj
 Dj
 hu
-Dj
-Dj
-Hi
+aZ
+Ro
+Ro
 Dt
-GL
-Dj
-Dj
+Ro
+Ro
+aZ
 hu
 Dj
 Dj
@@ -288266,13 +288715,13 @@ Dj
 Dj
 Dj
 hu
-aZ
-Ro
-PU
+Dj
+Dj
+Dj
 Dt
-Zr
-Ro
-aZ
+Dj
+Dj
+Dj
 hu
 Dj
 Dj
@@ -288525,9 +288974,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Dj
 Dt
-GL
+Dj
 Dj
 Dj
 hu
@@ -288782,9 +289231,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Dj
 Dt
-GL
+Dj
 Dj
 Dj
 hu
@@ -289039,9 +289488,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Dj
 Dt
-GL
+Dj
 Dj
 Dj
 hu
@@ -289296,9 +289745,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Dj
 Dt
-GL
+Dj
 Dj
 Dj
 hu
@@ -289553,9 +290002,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Dj
 Dt
-GL
+Dj
 Dj
 Dj
 hu
@@ -289808,13 +290257,13 @@ Dj
 Dj
 Dj
 hu
-Dj
-Dj
-Hi
+aZ
+Ro
+Ro
 Dt
-GL
-Dj
-Dj
+Ro
+Ro
+aZ
 hu
 Dj
 Dj
@@ -290065,13 +290514,13 @@ Dj
 Dj
 Dj
 hu
-aZ
-Ro
-PU
+Dj
+Dj
+Dj
 Dt
-Zr
-Ro
-aZ
+Dj
+Dj
+Dj
 hu
 Dj
 Dj
@@ -290324,9 +290773,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Dj
 Dt
-GL
+Dj
 Dj
 Dj
 hu
@@ -290581,9 +291030,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Dj
 Dt
-GL
+Dj
 Dj
 Dj
 hu
@@ -290838,9 +291287,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Dj
 Dt
-GL
+Dj
 Dj
 Dj
 hu
@@ -291095,9 +291544,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Dj
 Dt
-GL
+Dj
 Dj
 Dj
 hu
@@ -291352,9 +291801,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Dj
 Dt
-GL
+Dj
 Dj
 Dj
 hu
@@ -291607,13 +292056,13 @@ Dj
 Dj
 Dj
 hu
-Dj
-Dj
-Hi
+aZ
+Ro
+Ro
 Dt
-GL
-Dj
-Dj
+Ro
+Ro
+aZ
 hu
 Dj
 Dj
@@ -291864,13 +292313,13 @@ Dj
 Dj
 Dj
 hu
-aZ
-Ro
-PU
+Dj
+Dj
+Dj
 Dt
-Zr
-Ro
-aZ
+Dj
+Dj
+Dj
 hu
 Dj
 Dj
@@ -292123,9 +292572,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Dj
 Dt
-GL
+Dj
 Dj
 Dj
 hu
@@ -292380,9 +292829,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Dj
 Dt
-GL
+Dj
 Dj
 Dj
 hu
@@ -292637,9 +293086,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Dj
 Dt
-GL
+Dj
 Dj
 Dj
 hu
@@ -292894,9 +293343,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Dj
 Dt
-GL
+Dj
 Dj
 Dj
 hu
@@ -293151,9 +293600,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Dj
 Dt
-GL
+Dj
 Dj
 Dj
 hu
@@ -293408,9 +293857,9 @@ aZ
 JY
 aZ
 Dj
-Hi
+Dj
 Dt
-GL
+Dj
 Dj
 aZ
 JY
@@ -293660,19 +294109,19 @@ Dj
 Dj
 Dj
 Dj
-ni
+Fq
 ot
 JY
 oS
 Dj
-Hi
+Dj
 Dt
-GL
+Dj
 Dj
 Fq
 JY
 dK
-sy
+oS
 Dj
 Dj
 Dj
@@ -293917,19 +294366,19 @@ Dj
 Dj
 Dj
 Dj
-ni
+Fq
 ot
 JY
 oS
 Dj
-Hi
+Dj
 Ee
-GL
+Dj
 Dj
 Fq
 JY
 dK
-sy
+oS
 Dj
 Dj
 Dj
@@ -294168,12 +294617,12 @@ ez
 ez
 ez
 Oq
-Ro
-Ro
-Ro
+Dj
+Dj
+Dj
 aZ
-tU
-tU
+TP
+TP
 aZ
 ot
 JY
@@ -294422,7 +294871,7 @@ Qs
 Qs
 ez
 Dj
-Ro
+Dj
 Dj
 Dj
 Dj
@@ -294679,7 +295128,7 @@ Qs
 Qs
 ez
 Dj
-Ro
+Dj
 Dj
 Dj
 Dj
@@ -294936,7 +295385,7 @@ Oq
 Oq
 Oq
 Dj
-Ro
+Dj
 Dj
 Dj
 Dj
@@ -295193,7 +295642,7 @@ wD
 wD
 ez
 Dj
-Ro
+Dj
 Dj
 aZ
 Dj
@@ -295450,7 +295899,7 @@ wD
 wD
 ez
 Dj
-Ro
+Dj
 Dj
 Dj
 Dj
@@ -295706,13 +296155,13 @@ wD
 wD
 wD
 Oq
-Ro
-Ro
-Ro
-Ro
-Ro
-Ro
-Ro
+Dj
+Dj
+Dj
+Dj
+Dj
+Dj
+Dj
 aZ
 Dj
 Dj
@@ -295964,7 +296413,7 @@ wD
 wD
 ez
 Dj
-Ro
+Dj
 Dj
 Dj
 Dj
@@ -296221,7 +296670,7 @@ wD
 wD
 ez
 Dj
-Ro
+Dj
 Dj
 aZ
 Dj
@@ -296478,7 +296927,7 @@ wD
 wD
 Oq
 Dj
-Ro
+Dj
 Dj
 Dj
 Dj
@@ -296735,7 +297184,7 @@ wD
 wD
 Oq
 Dj
-Ro
+Dj
 Dj
 Dj
 Dj
@@ -296992,7 +297441,7 @@ Oq
 Oq
 Oq
 Dj
-Ro
+Dj
 Dj
 Dj
 Dj
@@ -297244,17 +297693,17 @@ Dj
 Dj
 Dj
 Dj
-Oq
+ia
 ri
 ri
-Oq
-ez
-ez
-ez
-Oq
-Ro
-Ro
-Ro
+ia
+FN
+FN
+FN
+ia
+Dj
+Dj
+Dj
 aZ
 VY
 VY
@@ -297271,8 +297720,8 @@ Fq
 JY
 dK
 aZ
-DU
-DU
+VY
+VY
 aZ
 Dj
 Dj
@@ -297501,13 +297950,13 @@ Dj
 Dj
 Dj
 Dj
-Oq
+ia
+tU
 Ut
-Ut
-Ut
-Ut
-Ut
-Ut
+nJ
+JB
+qz
+JF
 FN
 Dj
 Dj
@@ -297515,19 +297964,19 @@ Dj
 Dj
 Dj
 Dj
-ni
+Fq
 ot
 JY
 oS
 Dj
-Hi
+Kw
 BX
-GL
+Ym
 Dj
 Fq
 JY
 dK
-sy
+oS
 Dj
 Dj
 Dj
@@ -297758,13 +298207,13 @@ Dj
 Dj
 Dj
 Dj
-Oq
-Ut
-Ut
+ia
+fA
+ny
 Jx
-oG
+CO
 Qb
-Ut
+nw
 FN
 Dj
 Dj
@@ -297772,19 +298221,19 @@ Dj
 Dj
 Dj
 Dj
-ni
+Fq
 ot
 JY
 oS
 Dj
-Hi
+Kw
 BX
-GL
+Ym
 Dj
 Fq
 JY
 dK
-sy
+oS
 Dj
 Dj
 Dj
@@ -298015,14 +298464,14 @@ Dj
 Dj
 Dj
 Dj
-Oq
-Dj
-Dj
-Oq
-CU
+ia
+GM
+GM
+ia
+fA
 LD
-Ut
-FN
+xg
+ia
 Dj
 Dj
 Dj
@@ -298034,9 +298483,9 @@ aZ
 JY
 aZ
 Dj
-Hi
+Kw
 Dt
-GL
+Ym
 Dj
 aZ
 JY
@@ -298272,13 +298721,13 @@ Dj
 Dj
 Dj
 Dj
-Oq
-Dj
-Dj
-Oq
+ia
+GM
+GM
+ia
 ne
-LD
-Ut
+OT
+dl
 FN
 Dj
 Dj
@@ -298291,9 +298740,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Kw
 Dt
-GL
+Ym
 Dj
 Dj
 hu
@@ -298526,16 +298975,16 @@ Dj
 Dj
 Dj
 Dj
-Oq
-Oq
-Oq
-Oq
-Oq
-Oq
-Oq
+Dj
+Dj
+Dj
+ia
+ia
+ia
+ia
 Ll
-LD
-Ut
+dw
+Kn
 FN
 Dj
 Dj
@@ -298548,9 +298997,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Kw
 Dt
-GL
+Ym
 Dj
 Dj
 hu
@@ -298783,17 +299232,17 @@ Dj
 Dj
 Dj
 Dj
+Dj
+Dj
+Dj
 Oq
 wD
 wD
-wD
-wD
-wD
-Oq
-Oq
 ia
-Ut
-FN
+ia
+ia
+ia
+ia
 Dj
 Dj
 Dj
@@ -298805,9 +299254,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Kw
 Dt
-GL
+Ym
 Dj
 Dj
 hu
@@ -299041,16 +299490,16 @@ Dj
 Dj
 Dj
 Oq
-wD
-wD
-wD
-wD
-wD
 Oq
-Ll
-Ly
-Ly
-FN
+Oq
+Oq
+iX
+iX
+nh
+Zr
+Zr
+XQ
+Oq
 Dj
 Dj
 Dj
@@ -299062,9 +299511,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Kw
 Dt
-GL
+Ym
 Dj
 Dj
 hu
@@ -299300,14 +299749,14 @@ Dj
 Oq
 Dj
 Dj
+iX
+iX
+iX
+fK
+Zr
+Zr
+Zr
 Oq
-wD
-wD
-Oq
-ne
-Ly
-Ly
-FN
 Dj
 Dj
 Dj
@@ -299319,9 +299768,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Kw
 Dt
-GL
+Ym
 Dj
 Dj
 hu
@@ -299557,14 +300006,14 @@ Dj
 Oq
 Dj
 Dj
+iX
+iX
+iX
+fK
+Zr
+Zr
+Zr
 Oq
-wD
-wD
-Oq
-CU
-Ly
-Ly
-FN
 Dj
 Dj
 Dj
@@ -299574,13 +300023,13 @@ Dj
 Dj
 Dj
 hu
-aZ
-Ro
-PU
+Dj
+Dj
+Kw
 Dt
-Zr
-Ro
-aZ
+Ym
+Dj
+Dj
 hu
 Dj
 Dj
@@ -299814,13 +300263,13 @@ Dj
 Oq
 Oq
 Oq
-Oq
-Oq
-Oq
-Oq
-Oq
-Oq
-Oq
+iX
+iX
+iX
+fK
+Zr
+Zr
+Zr
 Oq
 Dj
 Dj
@@ -299831,13 +300280,13 @@ Dj
 Dj
 Dj
 hu
-Dj
-Dj
+aZ
+Ro
 Hi
 Dt
 GL
-Dj
-Dj
+Ro
+aZ
 hu
 Dj
 Dj
@@ -300070,15 +300519,15 @@ Dj
 Dj
 Dj
 Dj
-Dj
-Dj
-Dj
-Dj
-Dj
-Dj
-Dj
-Dj
-Dj
+Oq
+Oq
+Oq
+Oq
+Oq
+Zr
+cF
+Zr
+Oq
 Dj
 Dj
 Dj
@@ -300090,9 +300539,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Kw
 Dt
-GL
+Ym
 Dj
 Dj
 hu
@@ -300331,11 +300780,11 @@ Dj
 Dj
 Dj
 Dj
-Dj
-Dj
-Dj
-Dj
-Dj
+Oq
+Oq
+Oq
+Oq
+Oq
 Dj
 Dj
 Dj
@@ -300347,9 +300796,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Kw
 Dt
-GL
+Ym
 Dj
 Dj
 hu
@@ -300604,9 +301053,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Kw
 Dt
-GL
+Ym
 Dj
 Dj
 hu
@@ -300861,9 +301310,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Kw
 Dt
-GL
+Ym
 Dj
 Dj
 hu
@@ -301118,9 +301567,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Kw
 Dt
-GL
+Ym
 Dj
 Dj
 hu
@@ -301373,13 +301822,13 @@ Dj
 Dj
 Dj
 hu
-aZ
-Ro
-PU
+Dj
+Dj
+Kw
 Dt
-Zr
-Ro
-aZ
+Ym
+Dj
+Dj
 hu
 Dj
 Dj
@@ -301630,13 +302079,13 @@ Dj
 Dj
 Dj
 hu
-Dj
-Dj
+aZ
+Ro
 Hi
 Dt
 GL
-Dj
-Dj
+Ro
+aZ
 hu
 Dj
 Dj
@@ -301889,9 +302338,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Kw
 Dt
-GL
+Ym
 Dj
 Dj
 hu
@@ -302146,9 +302595,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Kw
 Dt
-GL
+Ym
 Dj
 Dj
 hu
@@ -302403,9 +302852,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Kw
 Dt
-GL
+Ym
 Dj
 Dj
 hu
@@ -302660,9 +303109,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Kw
 Dt
-GL
+Ym
 Dj
 Dj
 hu
@@ -302917,9 +303366,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Kw
 Dt
-GL
+Ym
 Dj
 Dj
 hu
@@ -303172,13 +303621,13 @@ Dj
 Dj
 Dj
 hu
-aZ
-Ro
-PU
+Dj
+Dj
+Kw
 Dt
-Zr
-Ro
-aZ
+Ym
+Dj
+Dj
 hu
 Dj
 Dj
@@ -303429,13 +303878,13 @@ Dj
 Dj
 Dj
 hu
-Dj
-Dj
+aZ
+Ro
 Hi
 Dt
 GL
-Dj
-Dj
+Ro
+aZ
 hu
 Dj
 Dj
@@ -303688,9 +304137,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Kw
 Dt
-GL
+Ym
 Dj
 Dj
 hu
@@ -303945,9 +304394,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Kw
 Dt
-GL
+Ym
 Dj
 Dj
 hu
@@ -304202,9 +304651,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Kw
 Dt
-GL
+Ym
 Dj
 Dj
 hu
@@ -304459,9 +304908,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Kw
 Dt
-GL
+Ym
 Dj
 Dj
 hu
@@ -304716,9 +305165,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Kw
 Dt
-GL
+Ym
 Dj
 Dj
 hu
@@ -304971,13 +305420,13 @@ Dj
 Dj
 Dj
 hu
-aZ
-Ro
-PU
+Dj
+Dj
+Kw
 Dt
-Zr
-Ro
-aZ
+Ym
+Dj
+Dj
 hu
 Dj
 Dj
@@ -305228,13 +305677,13 @@ Dj
 Dj
 Dj
 hu
-Dj
-Dj
+aZ
+Ro
 Hi
 Dt
 GL
-Dj
-Dj
+Ro
+aZ
 hu
 Dj
 Dj
@@ -305487,9 +305936,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Kw
 Dt
-GL
+Ym
 Dj
 Dj
 hu
@@ -305744,9 +306193,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Kw
 Dt
-GL
+Ym
 Dj
 Dj
 hu
@@ -306001,9 +306450,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Kw
 Dt
-GL
+Ym
 Dj
 Dj
 hu
@@ -306258,9 +306707,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Kw
 Dt
-GL
+Ym
 Dj
 Dj
 hu
@@ -306515,9 +306964,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Kw
 Dt
-GL
+Ym
 Dj
 Dj
 hu
@@ -306770,13 +307219,13 @@ Dj
 Dj
 Dj
 hu
-aZ
-Ro
-PU
+Dj
+Dj
+Kw
 Dt
-Zr
-Ro
-aZ
+Ym
+Dj
+Dj
 hu
 Dj
 Dj
@@ -307027,13 +307476,13 @@ Dj
 Dj
 Dj
 hu
-Dj
-Dj
+aZ
+Ro
 Hi
 Dt
 GL
-Dj
-Dj
+Ro
+aZ
 hu
 Dj
 Dj
@@ -307286,9 +307735,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Kw
 Dt
-GL
+Ym
 Dj
 Dj
 hu
@@ -307543,9 +307992,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Kw
 Dt
-GL
+Ym
 Dj
 Dj
 hu
@@ -307800,9 +308249,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Kw
 Dt
-GL
+Ym
 Dj
 Dj
 hu
@@ -308057,9 +308506,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Kw
 Dt
-GL
+Ym
 Dj
 Dj
 hu
@@ -308314,9 +308763,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Kw
 Dt
-GL
+Ym
 Dj
 Dj
 hu
@@ -308569,13 +309018,13 @@ Dj
 Dj
 Dj
 hu
-aZ
-Ro
-PU
+Dj
+Dj
+Kw
 Dt
-Zr
-Ro
-aZ
+Ym
+Dj
+Dj
 hu
 Dj
 Dj
@@ -308826,13 +309275,13 @@ Dj
 Dj
 Dj
 hu
-Dj
-Dj
+aZ
+Ro
 Hi
 Dt
 GL
-Dj
-Dj
+Ro
+aZ
 hu
 Dj
 Dj
@@ -309085,9 +309534,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Kw
 Dt
-GL
+Ym
 Dj
 Dj
 hu
@@ -309342,9 +309791,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Kw
 Dt
-GL
+Ym
 Dj
 Dj
 hu
@@ -309599,9 +310048,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Kw
 Dt
-GL
+Ym
 Dj
 Dj
 hu
@@ -309856,9 +310305,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Kw
 Dt
-GL
+Ym
 Dj
 Dj
 hu
@@ -310113,9 +310562,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Kw
 Dt
-GL
+Ym
 Dj
 Dj
 hu
@@ -310368,13 +310817,13 @@ Dj
 Dj
 Dj
 hu
-aZ
-Ro
-PU
+Dj
+Dj
+Kw
 Dt
-Zr
-Ro
-aZ
+Ym
+Dj
+Dj
 hu
 Dj
 Dj
@@ -310625,13 +311074,13 @@ Dj
 Dj
 Dj
 hu
-Dj
-Dj
+aZ
+Ro
 Hi
 Dt
 GL
-Dj
-Dj
+Ro
+aZ
 hu
 Dj
 Dj
@@ -310884,9 +311333,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Kw
 Dt
-GL
+Ym
 Dj
 Dj
 hu
@@ -311141,9 +311590,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Kw
 Dt
-GL
+Ym
 Dj
 Dj
 hu
@@ -311398,9 +311847,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Kw
 Dt
-GL
+Ym
 Dj
 Dj
 hu
@@ -311655,9 +312104,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Kw
 Dt
-GL
+Ym
 Dj
 Dj
 hu
@@ -311912,9 +312361,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Kw
 Dt
-GL
+Ym
 Dj
 Dj
 hu
@@ -312167,13 +312616,13 @@ Dj
 Dj
 Dj
 hu
-aZ
-Ro
-PU
+Dj
+Dj
+Kw
 Dt
-Zr
-Ro
-aZ
+Ym
+Dj
+Dj
 hu
 Dj
 Dj
@@ -312424,13 +312873,13 @@ Dj
 Dj
 Dj
 hu
-Dj
-Dj
+aZ
+Ro
 Hi
 Dt
 GL
-Dj
-Dj
+Ro
+aZ
 hu
 Dj
 Dj
@@ -312683,9 +313132,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Kw
 Dt
-GL
+Ym
 Dj
 Dj
 hu
@@ -312940,9 +313389,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Kw
 Dt
-GL
+Ym
 Dj
 Dj
 hu
@@ -313197,9 +313646,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Kw
 Dt
-GL
+Ym
 Dj
 Dj
 hu
@@ -313454,9 +313903,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Kw
 Dt
-GL
+Ym
 Dj
 Dj
 hu
@@ -313711,9 +314160,9 @@ Dj
 hu
 Dj
 Dj
-Hi
+Kw
 Dt
-GL
+Ym
 Dj
 Dj
 hu
@@ -313966,13 +314415,13 @@ Dj
 Dj
 Dj
 hu
-aZ
-Ro
-PU
+Dj
+Dj
+Kw
 Dt
-Zr
-Ro
-aZ
+Ym
+Dj
+Dj
 hu
 Dj
 Dj
@@ -314223,13 +314672,13 @@ Dj
 Dj
 Dj
 Dj
-Dj
-Dj
-Dj
-Dj
-Dj
-Dj
-Dj
+aZ
+Ro
+Hi
+Dt
+GL
+Ro
+aZ
 Dj
 Dj
 Dj
