@@ -577,17 +577,13 @@
 	/// The sound that's played for the ascension announcement.
 	var/announcement_sound
 
+
 /datum/heretic_knowledge/ultimate/on_research(mob/user, datum/antagonist/heretic/our_heretic)
 	. = ..()
 	var/total_points = 0
-<<<<<<< HEAD
-	for(var/datum/heretic_knowledge/knowledge as anything in flatten_list(our_heretic.researched_knowledge))
-		total_points += knowledge.cost
-=======
 	for(var/datum/heretic_knowledge/knowledge as anything in our_heretic.researched_knowledge)
 		var/list/cost = our_heretic.researched_knowledge[knowledge][HKT_COST]
 		total_points += cost
->>>>>>> a2c7c8e57b8 (Heretic Antagonist Full Overhaul. (#92119))
 
 	log_heretic_knowledge("[key_name(user)] gained knowledge of their final ritual at [gameTimestamp()]. \
 		They have [length(our_heretic.researched_knowledge)] knowledge nodes researched, totalling [total_points] points \
