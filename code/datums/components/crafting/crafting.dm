@@ -372,6 +372,10 @@
 	if(recipe.structures)
 		requirements += recipe.structures
 
+<<<<<<< HEAD
+=======
+	var/list/surroundings
+>>>>>>> a69bce8c393 (Revert core crafting changes from #93121 (#93512))
 	for(var/path_key in requirements)
 		var/list/surroundings
 		var/amount = recipe.reqs?[path_key] || recipe.machinery?[path_key] || recipe.structures?[path_key]
