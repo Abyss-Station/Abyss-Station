@@ -77,3 +77,17 @@
 
 /obj/item/stock_parts/power_store/battery/crap/empty
 	empty = TRUE
+<<<<<<< HEAD
+=======
+
+/obj/item/stock_parts/power_store/battery/infinite
+	name = "infinite-capacity megacell"
+	desc = "A transdimensional megacell with an inexhaustible capacity."
+	icon_state = "icellbig"
+	maxcharge = INFINITY
+	chargerate = INFINITY
+	ratingdesc = FALSE
+
+/obj/item/stock_parts/power_store/battery/infinite/use(used, force = FALSE)
+	return used
+>>>>>>> 3836e13c7d2 (Fix infinite capacity power cell/battery use() method return values (#93544))
