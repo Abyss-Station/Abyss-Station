@@ -344,7 +344,12 @@ GLOBAL_LIST_INIT(available_ui_styles, list(
 				screenmob.client.screen += infodisplay
 			if(always_visible_inventory.len)
 				screenmob.client.screen += always_visible_inventory
+<<<<<<< HEAD
 			if(open_containers.len)
+=======
+			if(open_containers.len && screenmob == mymob) // Don't show open inventories to ghosts
+				list_clear_nulls(open_containers)
+>>>>>>> 2b8aa4e0eb2 (Ensures that under no circumstances storage-related harddels can brick HUDs (#93559))
 				screenmob.client.screen += open_containers
 			screenmob.client.screen += toggle_palette
 
