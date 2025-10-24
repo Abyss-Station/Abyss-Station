@@ -66,20 +66,61 @@
 
 	scanned_item = WEAKREF(target)
 	SEND_SIGNAL(src, COMSIG_FISH_ANALYZER_ANALYZE_STATUS, target, user)
+<<<<<<< HEAD
 	ui_interact(user)
 	return ITEM_INTERACT_SUCCESS
 
+=======
+	if(target != scanned_object)
+		unregister_scanned()
+		register_scanned(target)
+	ui_interact(user)
+	return ITEM_INTERACT_SUCCESS
+
+/obj/item/fish_analyzer/proc/register_scanned(atom/target)
+	scanned_object = target
+	RegisterSignal(target, COMSIG_QDELETING, PROC_REF(on_target_deleted))
+
+/obj/item/fish_analyzer/proc/unregister_scanned()
+	if(!scanned_object)
+		return
+	UnregisterSignal(scanned_object, COMSIG_QDELETING)
+	scanned_object = null
+
+/obj/item/fish_analyzer/proc/on_target_deleted()
+	SIGNAL_HANDLER
+	unregister_scanned()
+
+>>>>>>> 97432bbdf72 ([NO GBP] Fixing the fish scanner UI (#93583))
 /obj/item/fish_analyzer/ui_interact(mob/user, datum/tgui/ui)
 	if(isnull(scanned_item?.resolve()))
 		balloon_alert(user, "no specimen data!")
 		return TRUE
+<<<<<<< HEAD
+=======
+	if(!(scanned_object in view(7, get_turf(src))))
+		balloon_alert(user, "specimen data lost!")
+		unregister_scanned()
+		return TRUE
+>>>>>>> 97432bbdf72 ([NO GBP] Fixing the fish scanner UI (#93583))
 
 	ui = SStgui.try_update_ui(user, src, ui)
 	if(!ui)
 		ui = new(user, src, "FishAnalyzer")
 		ui.open()
 
+<<<<<<< HEAD
 /obj/item/fish_analyzer/ui_static_data(mob/user)
+=======
+/obj/item/fish_analyzer/ui_status(mob/user, datum/ui_state/state)
+	if(!scanned_object || !(scanned_object in view(7, get_turf(src))))
+		balloon_alert(user, "specimen data lost!")
+		unregister_scanned()
+		return UI_CLOSE
+	return ..()
+
+/obj/item/fish_analyzer/ui_data(mob/user)
+>>>>>>> 97432bbdf72 ([NO GBP] Fixing the fish scanner UI (#93583))
 	var/list/data = list()
 	var/atom/scanned_object = scanned_item?.resolve()
 	data["fish_list"] = list()
@@ -132,6 +173,14 @@
 		"fish_traits" = fish_traits,
 		"fish_evolutions" = fish_evolutions,
 		"fish_suitable_temp" = fishie.fish_flags & FISH_FLAG_SAFE_TEMPERATURE,
+<<<<<<< HEAD
+=======
+		"fish_health" = fishie.status == FISH_DEAD ? 0 : PERCENT(fishie.get_health_percentage()),
+		"fish_size" = fishie.size,
+		"fish_weight" = fishie.weight,
+		"fish_hunger" = HAS_TRAIT(fishie, TRAIT_FISH_NO_HUNGER) ? 0 :  1 - fishie.get_hunger(),
+		"fish_breed_timer" = round(max(fishie.breeding_wait - world.time, 0) / 10),
+>>>>>>> 97432bbdf72 ([NO GBP] Fixing the fish scanner UI (#93583))
 	))
 
 	return data
