@@ -140,9 +140,17 @@
 	// Eye blind and temp blind go to, even if this is a bit of cheesy way to clear blindness
 	organ_owner.remove_status_effect(/datum/status_effect/eye_blur)
 	organ_owner.remove_status_effect(/datum/status_effect/temporary_blindness)
+<<<<<<< HEAD
 	// Then become blind anyways (if not special)
 	if(!special)
 		organ_owner.become_blind(NO_EYES)
+=======
+
+	if (scarring)
+		organ_owner.cure_nearsighted(TRAIT_RIGHT_EYE_SCAR)
+		organ_owner.cure_nearsighted(TRAIT_LEFT_EYE_SCAR)
+		organ_owner.cure_blind(EYE_SCARRING_TRAIT)
+>>>>>>> ebc3271c595 (Fix eye organ runtimes in on_mob_remove (#93599))
 
 	organ_owner.update_tint()
 	organ_owner.update_sight()
