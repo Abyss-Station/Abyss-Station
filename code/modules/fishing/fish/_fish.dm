@@ -231,6 +231,26 @@ GLOBAL_LIST_INIT(fish_compatible_fluid_types, list(
 	register_context()
 	register_item_context()
 
+<<<<<<< HEAD
+=======
+	if(!apply_qualities || !PERFORM_ALL_TESTS(focus_only/fish_population) || type == abstract_type || stable_population > 1)
+		return
+	if(length(compatible_types))
+		for(var/obj/item/fish/fishie as anything in compatible_types)
+			if(fishie::stable_population > 1)
+				if(!HAS_TRAIT(src, TRAIT_FISH_RECESSIVE))
+					stack_trace("[type] has a stable population of [stable_population] but is compatible with fishes with a higher stable population. \
+						However, it doesn't have the [/datum/fish_trait/recessive] trait. Either increase its stable population or add the trait to it.")
+				return
+	if(!HAS_TRAIT(src, TRAIT_FISH_NO_MATING) && !HAS_TRAIT(src, TRAIT_FISH_CROSSBREEDER))
+		var/list/pick_one = list(
+			/datum/fish_trait/crossbreeder,
+			/datum/fish_trait/no_mating,
+		)
+		stack_trace("[type] has a stable_population of [stable_population] but has neither of these traits: [english_list(pick_one)]. \
+			Either increase its stable population or add one of these traits to it.")
+
+>>>>>>> 72cd764be9a (Check that apply_qualities is TRUE before the fish_population unit test (#93619))
 /obj/item/fish/suicide_act(mob/living/user)
 	if(force == 0)
 		user.visible_message(span_suicide("[user] slaps [user.p_them()]self with [src], but nothing happens!"))
