@@ -39,9 +39,12 @@
 		return
 	RegisterSignal(current_area, COMSIG_AREA_POWER_CHANGE, PROC_REF(AreaPowerCheck))
 	GLOB.intercoms_list += src
+<<<<<<< HEAD
 	if(!unscrewed)
 		find_and_hang_on_wall(directional = TRUE, \
 			custom_drop_callback = CALLBACK(src, PROC_REF(knock_down)))
+=======
+>>>>>>> 5a31b00b2f9 ([NO GBP]Fixes some wall mounted items & Flaky poster sign CI Failures (#93606))
 
 /obj/item/radio/intercom/Destroy()
 	. = ..()
