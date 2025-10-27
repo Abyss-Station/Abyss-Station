@@ -20050,8 +20050,21 @@
 /obj/structure/sign/departments/engineering{
 	pixel_x = 32
 	},
+<<<<<<< HEAD
 /turf/open/openspace,
 /area/station/hallway/primary/tram/center)
+=======
+/obj/effect/turf_decal/tile/blue/fourcorners,
+/obj/machinery/button/door/directional/east{
+	pixel_y = 0;
+	id = "paramedic_shutters";
+	name = "Shutters button";
+	pixel_x = 23;
+	req_access = list("paramedic")
+	},
+/turf/open/floor/iron/dark,
+/area/station/medical/paramedic)
+>>>>>>> fcdd022aacd (Paramedic room fixes (#93608))
 "fXb" = (
 /obj/machinery/door/airlock{
 	name = "Barber Maintenance"
@@ -25008,6 +25021,11 @@
 	},
 /turf/open/floor/iron,
 /area/station/hallway/secondary/command)
+"hPO" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/spawner/random/structure/grille,
+/turf/open/floor/plating,
+/area/station/asteroid)
 "hPQ" = (
 /obj/structure/secure_safe/directional/north,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
@@ -49426,6 +49444,10 @@
 	},
 /turf/open/floor/iron,
 /area/station/command/heads_quarters/ce)
+"qpd" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/station/asteroid)
 "qpj" = (
 /obj/structure/chair/stool/bar/directional/east,
 /obj/effect/landmark/start/prisoner,
@@ -52252,6 +52274,12 @@
 /obj/machinery/atmospherics/pipe/smart/simple/yellow/visible,
 /turf/open/floor/plating,
 /area/station/engineering/atmos/pumproom)
+"rob" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/spawner/random/structure/closet_empty/crate,
+/obj/effect/spawner/random/maintenance,
+/turf/open/floor/plating,
+/area/station/asteroid)
 "roi" = (
 /obj/structure/chair/stool/directional/north,
 /obj/effect/turf_decal/trimline/dark_green/line{
@@ -105198,8 +105226,8 @@ kFp
 kFp
 mqq
 qjU
-aaa
-aaa
+rob
+hPO
 fal
 fal
 fal
@@ -105456,8 +105484,13 @@ qyr
 xdJ
 qjU
 qjU
+<<<<<<< HEAD
 aaa
 qjU
+=======
+hPO
+pIc
+>>>>>>> fcdd022aacd (Paramedic room fixes (#93608))
 oNW
 pWP
 pPN
@@ -105712,9 +105745,15 @@ kFp
 kFp
 dcq
 kxC
+<<<<<<< HEAD
 qjU
 aaa
 qjU
+=======
+knG
+qpd
+qpv
+>>>>>>> fcdd022aacd (Paramedic room fixes (#93608))
 nRK
 qDQ
 hxL
@@ -105968,10 +106007,17 @@ ycV
 kFp
 tqp
 kGR
+<<<<<<< HEAD
 byW
 qjU
 aaa
 qjU
+=======
+lhi
+kFp
+qpd
+qpv
+>>>>>>> fcdd022aacd (Paramedic room fixes (#93608))
 crU
 kbG
 hQK
@@ -106227,8 +106273,13 @@ tqp
 qjU
 qjU
 qjU
+<<<<<<< HEAD
 aaa
 qjU
+=======
+aaS
+pIc
+>>>>>>> fcdd022aacd (Paramedic room fixes (#93608))
 hZr
 hZr
 hZr
@@ -106483,7 +106534,7 @@ mDx
 pwh
 fNX
 nag
-qjU
+cbc
 qjU
 aaa
 hZr

@@ -10147,6 +10147,9 @@
 	dir = 2
 	},
 /obj/effect/landmark/start/psychologist,
+/obj/machinery/door/airlock/medical{
+	name = "Psychology Lobby"
+	},
 /turf/open/floor/wood/parquet,
 /area/station/medical/psychology)
 "bBl" = (
@@ -78343,9 +78346,6 @@
 /turf/open/floor/iron/dark,
 /area/station/command/bridge)
 "lBR" = (
-/obj/machinery/door/airlock/medical{
-	name = "Psychology Lobby"
-	},
 /obj/effect/turf_decal/tile/blue/fourcorners,
 /obj/machinery/door/firedoor,
 /obj/structure/cable,
@@ -78354,6 +78354,13 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+<<<<<<< HEAD
+=======
+/obj/effect/mapping_helpers/airlock/access/all/medical/paramedic,
+/obj/machinery/door/airlock/medical/glass{
+	name = "Paramedic Dispatch Room"
+	},
+>>>>>>> fcdd022aacd (Paramedic room fixes (#93608))
 /turf/open/floor/iron/white,
 /area/station/medical/patients_rooms)
 "lBS" = (

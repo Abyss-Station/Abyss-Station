@@ -3241,7 +3241,19 @@
 /turf/open/floor/iron/dark/textured_edge{
 	dir = 4
 	},
+<<<<<<< HEAD
 /area/station/medical/chem_storage)
+=======
+/obj/machinery/button/door/directional/east{
+	pixel_y = 0;
+	id = "paramedic_shutters";
+	name = "Shutters button";
+	pixel_x = 23;
+	req_access = list("paramedic")
+	},
+/turf/open/floor/iron/dark,
+/area/station/medical/paramedic)
+>>>>>>> fcdd022aacd (Paramedic room fixes (#93608))
 "aTH" = (
 /obj/effect/turf_decal/tile/blue/half/contrasted{
 	dir = 1
@@ -44675,6 +44687,7 @@
 /area/station/ai_monitored/turret_protected/aisat/hallway)
 "mGs" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+<<<<<<< HEAD
 /obj/machinery/door/airlock/research{
 	name = "Chemical Storage"
 	},
@@ -44685,6 +44698,15 @@
 /obj/structure/cable,
 /turf/open/floor/iron/textured,
 /area/station/medical/chem_storage)
+=======
+/obj/machinery/door/firedoor,
+/obj/effect/turf_decal/tile/blue/full,
+/obj/machinery/door/airlock/medical/glass{
+	name = "Paramedic Dispatch Room"
+	},
+/turf/open/floor/iron/dark,
+/area/station/medical/paramedic)
+>>>>>>> fcdd022aacd (Paramedic room fixes (#93608))
 "mGu" = (
 /obj/machinery/rnd/server,
 /obj/structure/lattice/catwalk,

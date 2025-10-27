@@ -6127,6 +6127,19 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/plating,
 /area/station/maintenance/aft/lesser)
+<<<<<<< HEAD
+=======
+"cjb" = (
+/obj/machinery/door/firedoor,
+/obj/effect/turf_decal/tile/blue/fourcorners,
+/obj/effect/mapping_helpers/airlock/unres,
+/obj/machinery/door/airlock/medical/glass{
+	name = "Medbay Staff Entrance"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/medical/general,
+/turf/open/floor/iron/dark,
+/area/station/medical/medbay/central)
+>>>>>>> fcdd022aacd (Paramedic room fixes (#93608))
 "cji" = (
 /obj/effect/turf_decal/trimline/red/filled/line{
 	dir = 8
@@ -24289,6 +24302,21 @@
 	},
 /turf/open/floor/iron,
 /area/station/command/gateway)
+<<<<<<< HEAD
+=======
+"ivm" = (
+/obj/machinery/door/airlock/security/glass{
+	name = "Medbay Security Post"
+	},
+/obj/effect/turf_decal/tile/red/fourcorners,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/door/firedoor,
+/obj/effect/mapping_helpers/airlock/access/all/security/general,
+/turf/open/floor/iron/dark,
+/area/station/security/checkpoint/medical)
+>>>>>>> fcdd022aacd (Paramedic room fixes (#93608))
 "ivu" = (
 /obj/structure/table/reinforced,
 /obj/machinery/camera/directional/west{
@@ -33265,6 +33293,10 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/white,
 /area/station/security/medical)
+"lvU" = (
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/turf/open/floor/iron/dark,
+/area/station/hallway/primary/central)
 "lvZ" = (
 /obj/machinery/door/firedoor,
 /obj/structure/disposalpipe/segment,
@@ -33358,6 +33390,19 @@
 /obj/machinery/firealarm/directional/south,
 /turf/open/floor/iron/dark,
 /area/station/security/holding_cell)
+<<<<<<< HEAD
+=======
+"lyh" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/door/firedoor,
+/obj/effect/turf_decal/tile/blue/fourcorners,
+/obj/machinery/door/airlock/medical/glass{
+	name = "Cryogenics Bay"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/medical/paramedic,
+/turf/open/floor/iron/dark,
+/area/station/medical/paramedic)
+>>>>>>> fcdd022aacd (Paramedic room fixes (#93608))
 "lyu" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/tile/blue/opposingcorners{
@@ -46151,6 +46196,7 @@
 /turf/open/floor/iron/white,
 /area/station/science/xenobiology/hallway)
 "pUM" = (
+<<<<<<< HEAD
 /obj/structure/table,
 /obj/effect/turf_decal/siding/white/corner,
 /obj/machinery/firealarm/directional/north,
@@ -46158,6 +46204,14 @@
 /obj/item/paper,
 /obj/item/pen,
 /obj/machinery/light/small/directional/north,
+=======
+/obj/effect/turf_decal/tile/blue/fourcorners,
+/obj/machinery/door/airlock/medical/glass{
+	name = "Paramedic Dispatch Room"
+	},
+/obj/machinery/door/firedoor,
+/obj/effect/mapping_helpers/airlock/access/all/medical/paramedic,
+>>>>>>> fcdd022aacd (Paramedic room fixes (#93608))
 /turf/open/floor/iron/dark,
 /area/station/medical/office)
 "pUS" = (
@@ -48584,6 +48638,15 @@
 	dir = 1
 	},
 /obj/machinery/portable_atmospherics/canister/anesthetic_mix,
+<<<<<<< HEAD
+=======
+/obj/machinery/light_switch/directional/east{
+	pixel_x = 21
+	},
+/obj/effect/turf_decal/stripes/end{
+	dir = 1
+	},
+>>>>>>> fcdd022aacd (Paramedic room fixes (#93608))
 /turf/open/floor/iron/dark,
 /area/station/medical/cryo)
 "qNk" = (
@@ -63328,6 +63391,7 @@
 /turf/open/floor/iron/checker,
 /area/station/maintenance/aft/lesser)
 "vIn" = (
+<<<<<<< HEAD
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/turf_decal/trimline/blue/filled/corner{
 	dir = 1
@@ -63335,6 +63399,19 @@
 /obj/effect/landmark/event_spawn,
 /turf/open/floor/iron/white,
 /area/station/medical/office)
+=======
+/obj/effect/turf_decal/tile/blue/fourcorners,
+/obj/machinery/door/airlock/medical/glass{
+	name = "Paramedic Dispatch Room"
+	},
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/door/firedoor,
+/obj/effect/mapping_helpers/airlock/access/all/medical/paramedic,
+/turf/open/floor/iron/dark,
+/area/station/medical/paramedic)
+>>>>>>> fcdd022aacd (Paramedic room fixes (#93608))
 "vIz" = (
 /obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/visible{
 	dir = 8
@@ -92966,6 +93043,10 @@ sVY
 sVY
 xxk
 ahr
+<<<<<<< HEAD
+=======
+lvU
+>>>>>>> fcdd022aacd (Paramedic room fixes (#93608))
 bMY
 yim
 rvq
